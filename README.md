@@ -75,4 +75,4 @@ line by line:
 5) The results of attempting the second move. The move succeeded (the new coordinates are shown),
 6) Unfortunately the square the agent moved into was a bad one (water, desert, etc.),
 7) Agents need to eat on every trun or else they lose health. Unfortunately the agent was not successful,
-8) The agent has only 14 health points left after this turn (lost 1 point for not eating, 5 points for lanfing in a bad square)
+8) The agent has only 14 health points left after this turn (lost 1 point for not eating, 5 points for landing in a bad square)
