@@ -7,72 +7,74 @@
   
 souptest will provide some output that is suitable for testing & debugging your script. Some example output below:
 ```
-Starting new game at Mon Nov 18 12:15:34 2019                                                                                                                                                                                                      
-                                                                                                                                                                                                                                                   
-Player "player4.py" (Ricky Cayley) added at (509, 442).                                                                                                                                                                                            
-                                                                                                                                                                                                                                                   
-Turn 0:                                                                                                                                                                                                                                            
-R507C440T0F0,R507C441T0F0,R507C442T0F0,R507C443T0F0,R507C444T0F0,R508C440T0F0,R508C441T0F0,R508C442T0F0,R508C443T1F0,R508C444T0F0,R509C440T2F0,R509C441T0F1,R509C442T1F0,R509C443T0F0,R509C444T0F0,R510C440T0F0,R510C441T2F0,R510C442T0F0,R510C443T1F0,R510C444T1F0,R511C440T0F0,R511C441T0F0,R511C442T1F0,R511C443T0F1,R511C444T0F0                                                                                                                                                                  
-player4.py plans to EAT|DL                                                                                                                                                                                                                         
-STEP 0: EAT -   Tried to eat in an empty square.                                                                                                                                                                                                   
-STEP 1: DL -    Moved to (510, 441)                                                                                                                                                                                                                
-        Landed in a bad square!                                                                                                                                                                                                                    
-Failed to eat this turn, starving.                                                                                                                                                                                                                 
+Starting new game at Thu Dec  5 10:30:37 2019
+  
+Player "player4.py" (Ricky Cayley) added at (426, 490).
+
+Turn 0:
+R424C488T1F0P0,R424C489T1F1P0,R424C490T3F0P0,R424C491T1F0P0,R424C492T3F0P0,R425C488T0F0P0,R425C489T2F0P0,R425C490T1F0P0,R425C491T2F0P1,R425C492T0F0P0,R426C488T2F0P0,R426C489T0F0P0,R426C490T0F0P1,R426C491T3F0P0,R426C492T3F0P0,R427C488T0F0P0,R427C489T3F0P0,R427C490T0F0P0,R427C491T2F0P0,R427C492T0F0P0,R428C488T0F0P0,R428C489T2F0P0,R428C490T0F0P0,R428C491T0F1P0,R428C492T1F0P0
+player4.py plans to EAT|UL
+STEP 0: EAT -   Tried to eat in an empty square.
+STEP 1: UL -    Moved to (425, 489)
+        Landed in a bad square!
+Failed to eat this turn, starving.
 Player health at end of turn: 14
 
 Turn 1:
-R508C439T0F0,R508C440T0F0,R508C441T0F0,R508C442T0F0,R508C443T1F0,R509C439T1F0,R509C440T2F0,R509C441T0F1,R509C442T1F0,R509C443T0F0,R510C439T0F0,R510C440T0F0,R510C441T2F0,R510C442T0F0,R510C443T1F0,R511C439T0F0,R511C440T0F0,R511C441T0F0,R511C442T1F0,R511C443T0F1,R512C439T1F0,R512C440T0F0,R512C441T0F0,R512C442T2F0,R512C443T3F0
-player4.py plans to D|EAT
-STEP 0: D -     Moved to (511, 441)
-STEP 1: EAT -   Tried to eat in an empty square.
+R423C487T0F0P0,R423C488T0F0P0,R423C489T3F0P0,R423C490T0F0P0,R423C491T3F0P0,R424C487T2F0P0,R424C488T1F0P0,R424C489T1F1P0,R424C490T3F0P0,R424C491T1F0P0,R425C487T0F0P0,R425C488T0F0P0,R425C489T2F0P1,R425C490T1F0P0,R425C491T2F0P0,R426C487T0F0P0,R426C488T2F0P0,R426C489T0F0P0,R426C490T0F0P0,R426C491T3F0P0,R427C487T0F0P0,R427C488T0F0P0,R427C489T3F0P0,R427C490T0F0P0,R427C491T2F0P0
+player4.py plans to L|UR
+STEP 0: L -     Moved to (425, 488)
+STEP 1: UR -    Moved to (424, 489)
 Failed to eat this turn, starving.
 Player health at end of turn: 13
 
 Turn 2:
-R509C439T1F0,R509C440T2F0,R509C441T0F1,R509C442T1F0,R509C443T0F0,R510C439T0F0,R510C440T0F0,R510C441T2F0,R510C442T0F0,R510C443T1F0,R511C439T0F0,R511C440T0F0,R511C441T0F0,R511C442T1F0,R511C443T0F1,R512C439T1F0,R512C440T0F0,R512C441T0F0,R512C442T2F0,R512C443T3F0,R513C439T0F0,R513C440T0F0,R513C441T2F0,R513C442T0F0,R513C443T0F1
-player4.py plans to UL|DL
-STEP 0: UL -    Moved to (510, 440)
-STEP 1: DL -    Moved to (511, 439)
-Failed to eat this turn, starving.
-Player health at end of turn: 12
+R422C487T0F0P0,R422C488T0F0P0,R422C489T0F0P0,R422C490T0F0P0,R422C491T2F0P1,R423C487T0F0P0,R423C488T0F0P0,R423C489T3F0P0,R423C490T0F0P0,R423C491T3F0P0,R424C487T2F0P0,R424C488T1F0P0,R424C489T1F1P1,R424C490T3F0P0,R424C491T1F0P0,R425C487T0F0P0,R425C488T0F0P0,R425C489T2F0P0,R425C490T1F0P0,R425C491T2F0P0,R426C487T0F0P0,R426C488T2F0P0,R426C489T0F0P0,R426C490T0F0P0,R426C491T3F0P0
+player4.py plans to EAT|UR
+STEP 0: EAT -   Ate at (424, 489)
+STEP 1: UR -    Moved to (423, 490)
+Player health at end of turn: 14
 
 Turn 3:
-R509C437T0F0,R509C438T1F1,R509C439T1F0,R509C440T2F0,R509C441T0F1,R510C437T0F0,R510C438T0F0,R510C439T0F0,R510C440T0F0,R510C441T2F0,R511C437T0F0,R511C438T0F0,R511C439T0F0,R511C440T0F0,R511C441T0F0,R512C437T3F0,R512C438T3F0,R512C439T1F0,R512C440T0F0,R512C441T0F0,R513C437T0F0,R513C438T3F0,R513C439T0F0,R513C440T0F0,R513C441T2F0
-player4.py plans to DL|EAT
-STEP 0: DL -    Moved to (512, 438)
+R421C488T1F1P0,R421C489T0F0P0,R421C490T0F0P0,R421C491T1F0P0,R421C492T2F0P0,R422C488T0F0P0,R422C489T0F0P0,R422C490T0F0P0,R422C491T2F0P1,R422C492T0F0P0,R423C488T0F0P0,R423C489T3F0P0,R423C490T0F0P1,R423C491T3F0P0,R423C492T0F0P0,R424C488T1F0P0,R424C489T1F0P0,R424C490T3F0P0,R424C491T1F0P0,R424C492T3F0P0,R425C488T0F0P0,R425C489T2F0P0,R425C490T1F0P0,R425C491T2F0P0,R425C492T0F0P0
+player4.py plans to U|R
+STEP 0: U -     Moved to (422, 490)
+STEP 1: R -     Moved to (422, 491)
         Landed in a bad square!
-STEP 1: EAT -   Tried to eat in an empty square.
-        Landed in a bad square!
+        FIGHT! Player WON.
 Failed to eat this turn, starving.
-Player health at end of turn: 1
+Player health at end of turn: 8
 
 Turn 4:
-R510C436T1F0,R510C437T0F0,R510C438T0F0,R510C439T0F0,R510C440T0F0,R511C436T0F0,R511C437T0F0,R511C438T0F0,R511C439T0F0,R511C440T0F0,R512C436T0F1,R512C437T3F0,R512C438T3F0,R512C439T1F0,R512C440T0F0,R513C436T1F0,R513C437T0F0,R513C438T3F0,R513C439T0F0,R513C440T0F0,R514C436T1F0,R514C437T3F0,R514C438T0F0,R514C439T2F0,R514C440T0F0
-player4.py plans to UL|EAT
-STEP 0: UL -    Moved to (511, 437)
-STEP 1: EAT -   Tried to eat in an empty square.
-Failed to eat this turn, starving.
+R420C489T3F0P0,R420C490T0F0P0,R420C491T1F0P0,R420C492T0F0P0,R420C493T3F0P0,R421C489T0F0P0,R421C490T0F0P0,R421C491T1F0P0,R421C492T2F0P0,R421C493T1F0P0,R422C489T0F0P0,R422C490T0F0P0,R422C491T2F0P2,R422C492T0F0P0,R422C493T3F0P0,R423C489T3F0P0,R423C490T0F0P0,R423C491T3F0P0,R423C492T0F0P0,R423C493T1F0P0,R424C489T1F0P0,R424C490T3F0P0,R424C491T1F0P0,R424C492T3F0P0,R424C493T3F0P0
+player4.py plans to DL|UR
+STEP 0: DL -    Moved to (423, 490)
+STEP 1: UR -    Moved to (422, 491)
+        Landed in a bad square!
+        FIGHT! Player LOST the fight and suffered 6 points of damage.
 
-!!! player4.py has died on turn 5 at (511, 437).
+!!! player4.py has died on turn 5 at (422, 491).
 ```
 
-Looking more closely at the first turn:
+Looking more closely at the 4th turn:
 ```
-Turn 0:                                                                                                                                                                                                                                            
-R507C440T0F0,R507C441T0F0,R507C442T0F0,R507C443T0F0,R507C444T0F0,R508C440T0F0,R508C441T0F0,R508C442T0F0,R508C443T1F0,R508C444T0F0,R509C440T2F0,R509C441T0F1,R509C442T1F0,R509C443T0F0,R509C444T0F0,R510C440T0F0,R510C441T2F0,R510C442T0F0,R510C443T1F0,R510C444T1F0,R511C440T0F0,R511C441T0F0,R511C442T1F0,R511C443T0F1,R511C444T0F0                                                                                                                                                                  
-player4.py plans to EAT|DL                                                                                                                                                                                                                         
-STEP 0: EAT -   Tried to eat in an empty square.                                                                                                                                                                                                   
-STEP 1: DL -    Moved to (510, 441)                                                                                                                                                                                                                
-        Landed in a bad square!                                                                                                                                                                                                                    
-Failed to eat this turn, starving.                                                                                                                                                                                                                 
-Player health at end of turn: 14
+Turn 4:
+R420C489T3F0P0,R420C490T0F0P0,R420C491T1F0P0,R420C492T0F0P0,R420C493T3F0P0,R421C489T0F0P0,R421C490T0F0P0,R421C491T1F0P0,R421C492T2F0P0,R421C493T1F0P0,R422C489T0F0P0,R422C490T0F0P0,R422C491T2F0P2,R422C492T0F0P0,R422C493T3F0P0,R423C489T3F0P0,R423C490T0F0P0,R423C491T3F0P0,R423C492T0F0P0,R423C493T1F0P0,R424C489T1F0P0,R424C490T3F0P0,R424C491T1F0P0,R424C492T3F0P0,R424C493T3F0P0
+player4.py plans to DL|UR
+STEP 0: DL -    Moved to (423, 490)
+STEP 1: UR -    Moved to (422, 491)
+        Landed in a bad square!
+        FIGHT! Player LOST the fight and suffered 6 points of damage.
+
+!!! player4.py has died on turn 5 at (422, 491).
 ```
 line by line:
 1) The turn described,
-2) The environment passed to the agent. This will always be comma separated list of the 25 squares around the agent,
-3) The moves that the agent requested to be played, in this case to eat in the current square then move down-left,
-4) The results of attempting the first move. In this case the square did not have any food, so this was of no benefit,
-5) The results of attempting the second move. The move succeeded (the new coordinates are shown),
-6) Unfortunately the square the agent moved into was a bad one (water, desert, etc.),
-7) Agents need to eat on every trun or else they lose health. Unfortunately the agent was not successful,
-8) The agent has only 14 health points left after this turn (lost 1 point for not eating, 5 points for landing in a bad square)
+2) The environment passed to the agent. This will always be comma separated list of the 25 squares around the agent. In this latest version there is a new value indicating the presence of a player or predator. Note that this includes your agent, so the 13th square will ALWAYS be at least 'P1',
+3) The moves that the agent requested to be played, in this case to move down-left then move up-right,
+4) The results of attempting the first move. The move succeeded (the new coordinates are shown),
+5) The results of attempting the second move,
+6) Unfortunately the square the agent moved into was a bad one (water, desert, etc.). The agent loses 5 health points,
+7) Unfortunately the square also contained a predator which beat the agent in a fight, costing the agent another 6 health points,
+8) Agents need to eat on every turn or else they lose health. Unfortunately the agent was not successful and loses another 1 health point,
+9) The agent started the turn with 8 health points and lost 12 during this turn meaning it is now dead.
