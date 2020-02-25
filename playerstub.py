@@ -7,7 +7,7 @@
 import getopt, sys, random
 
 version = '0.0.1'
-author = "Reza Babarahim|babarahim@mmsi.com"
+author = "Your Name|your_email@your_domain.com"
 
 random.seed()
 
